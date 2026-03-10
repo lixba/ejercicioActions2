@@ -51,4 +51,4 @@ jobs:
         run: |
           CONFIG=${{inputs.build_configuration || 'Release' }}
           echo "Build with configuration: $CONFIG"
-          dotnet build MiProyectoMVC/MiProyectoMVC.csproj.csproj --configuration $CONFIG --no-restore
+          dotnet build MiProyectoMVC/MiProyectoMVC.csproj --configuration $CONFIG --no-restore
