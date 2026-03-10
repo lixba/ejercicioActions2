@@ -1,0 +1,13 @@
+name: Primer Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Paso Hola Mundo
+        run: echo "Primer Github Actions"
